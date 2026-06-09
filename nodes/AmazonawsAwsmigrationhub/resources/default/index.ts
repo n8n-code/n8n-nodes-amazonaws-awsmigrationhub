@@ -876,7 +876,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Application Id",
+			"displayName": "Application ID",
 			"name": "ApplicationId",
 			"type": "string",
 			"default": "",
@@ -1331,7 +1331,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Configuration Id",
+			"displayName": "Configuration ID",
 			"name": "ConfigurationId",
 			"type": "string",
 			"default": "",
@@ -2631,7 +2631,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Application Id",
+			"displayName": "Application ID",
 			"name": "ApplicationId",
 			"type": "string",
 			"default": "",

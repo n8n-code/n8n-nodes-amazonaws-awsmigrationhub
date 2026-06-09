@@ -8,7 +8,7 @@ import type {
 export class AmazonawsAwsmigrationhubApi implements ICredentialType {
 	name = 'N8nDevAmazonawsAwsmigrationhubApi';
 
-	displayName = 'amazonaws-awsmigrationhub API';
+	displayName = 'Amazonaws Awsmigrationhub API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsAwsmigrationhub/amazonaws-awsmigrationhub.png', dark: 'file:../nodes/AmazonawsAwsmigrationhub/amazonaws-awsmigrationhub.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsAwsmigrationhubApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://mgh.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-awsmigrationhub API server',
+			description: 'The base URL of your Amazonaws Awsmigrationhub API server',
 		},
 		{
 			displayName: 'API Key',

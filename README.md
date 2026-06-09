@@ -53,9 +53,28 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post associate created artifact, Post associate discovered resource, Post create progress update stream, Post delete progress update stream, Post describe application state, Post describe migration task, Post disassociate created artifact, Post disassociate discovered resource, Post import migration task, Post list application states, Post list created artifacts, Post list discovered resources, Post list migration tasks, Post list progress update streams, Post notify application state, Post notify migration task state, Post put resource attributes |
+<details>
+<summary><b>Default</b> (17 operations)</summary>
+
+- Post Associate Created Artifact
+- Post Associate Discovered Resource
+- Post Create Progress Update Stream
+- Post Delete Progress Update Stream
+- Post Describe Application State
+- Post Describe Migration Task
+- Post Disassociate Created Artifact
+- Post Disassociate Discovered Resource
+- Post Import Migration Task
+- Post List Application States
+- Post List Created Artifacts
+- Post List Discovered Resources
+- Post List Migration Tasks
+- Post List Progress Update Streams
+- Post Notify Application State
+- Post Notify Migration Task State
+- Post Put Resource Attributes
+
+</details>
 
 ---
 

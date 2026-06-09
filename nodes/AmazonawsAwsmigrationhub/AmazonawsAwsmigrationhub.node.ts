@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsAwsmigrationhub implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-awsmigrationhub',
+		displayName: 'Amazonaws Awsmigrationhub',
 		name: 'N8nDevAmazonawsAwsmigrationhub',
 		icon: { light: 'file:./amazonaws-awsmigrationhub.png', dark: 'file:./amazonaws-awsmigrationhub.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'AWS Migration Hub API methods help to obtain server and application migration status and integrate your resource-specific migration tool by providing a programmatic interface to Migration Hu..',
-		defaults: { name: 'amazonaws-awsmigrationhub' },
+		description: 'AWS Migration Hub API provides programmatic access to migration status and tool integration.',
+		defaults: { name: 'Amazonaws Awsmigrationhub' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
